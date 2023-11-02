@@ -15,6 +15,49 @@ entries:
         PR\"\n      url: https://github.com/8gears/n8n-helm-chart/pull/46\n"
     apiVersion: v2
     appVersion: 1.7.1
+    created: "2023-11-02T20:45:13.901488506Z"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.2.0
+    description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
+      node based Workflow Automation Tool. Easily automate tasks across different
+      services.
+    digest: 9e18deaba13e2a3a98551b12d8f0f85b6341f6bba8e40006671d81c9c46e297a
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - name: Vadim Bauer
+    name: n8n
+    sources:
+    - https://github.com/n8n-io/n8n
+    - https://n8n.io/
+    type: application
+    urls:
+    - https://github.com/cbrendanprice/n8n-helm-chart/releases/download/n8n-0.13.3/n8n-0.13.3.tgz
+    version: 0.13.3
+  - annotations:
+      artifacthub.io/changes: "- kind: added\n  description: \"Chart 0.13.0 adds support
+        for app version 1.7.1\"\n- kind: changed\n  description: \"Correctly perform
+        semantic version comparison\"\n  links:\n    - name: \"GitHub PR\"\n        url:
+        https://github.com/8gears/n8n-helm-chart/pull/54    \n- kind: changed\n  description:
+        \"Fixed secret volume mnt for existing secret\"\n  links:\n    - name: \"GitHub
+        PR\"\n        url: https://github.com/8gears/n8n-helm-chart/pull/51\n- kind:
+        changed\n  description: \"Updated App Version to 1.5.1\"\n- kind: added\n
+        \ description: \"Added support for specifying initContainers and probes\"\n-
+        kind: changed\n  description: \"Updated App Version to 0.236.3\"\n- kind:
+        added\n  description: \"Support Kubernetes 1.25\"\n  links:\n    - name: \"GitHub
+        PR\"\n      url: https://github.com/8gears/n8n-helm-chart/pull/46\n"
+    apiVersion: v2
+    appVersion: 1.7.1
     created: "2023-11-02T20:31:21.836078429Z"
     dependencies:
     - condition: redis.enabled
@@ -87,4 +130,4 @@ entries:
     urls:
     - https://github.com/cbrendanprice/n8n-helm-chart/releases/download/n8n-0.13.1/n8n-0.13.1.tgz
     version: 0.13.1
-generated: "2023-11-02T20:31:21.836087329Z"
+generated: "2023-11-02T20:45:13.901505606Z"
